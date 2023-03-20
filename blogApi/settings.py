@@ -13,7 +13,7 @@ SECRET_KEY = 'django-insecure-3e((ml$)o31&ja@mf5liz&#ro3=6ly!t*py8%8tv6hvcgl7fuj
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['34.16.142.71', '10.182.0.2', 'localhost']
 
 
 # Application definition
@@ -73,8 +73,8 @@ WSGI_APPLICATION = 'blogApi.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'blog_api_db',
-        'USER': 'sanzhar',
+        'NAME': 'myproject',
+        'USER': 'myprojectuser',
         'PASSWORD': '1',
         'HOST': 'localhost',
         'PORT': 5432,
